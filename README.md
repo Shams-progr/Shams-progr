@@ -15,4 +15,4 @@
 - **Volunteer:** Departemental mission at *Secours Populaire* (Teamwork & Organization).
 
 ### 📬 Connect with me
-- Currently focusing on mastering Python fundamentals!
+- Currently focusing on learning Python.
