@@ -1,16 +1,19 @@
-## Hi there 👋
+Hi, I'm Shams Mary 👋
 
-<!--
-**Shams-progr/Shams-progr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🎓 Student & Tech Enthusiast
+- **Background:** High School Senior (Specialties: Mathematics, Physics, Maths Expert).
+- **Goal:** Pursuing a Bachelor of Technology (BUT) in Computer Science.
+- **Languages:** French (Native), English (Daily use for technical documentation).
 
-Here are some ideas to get you started:
+### 💻 Self-Taught Journey
+- **Languages:** Python (Algorithms), HTML/CSS.
+- **Hardware:** Built and optimized my own PC workstation.
+- **Tools:** Learning Git and Markdown.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🤝 Community Involvement
+- **Volunteer:** Departemental mission at *Secours Populaire* (Teamwork & Organization).
+
+### 📬 Connect with me
+- Currently focusing on mastering Python fundamentals!
