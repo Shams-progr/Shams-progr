@@ -1,4 +1,3 @@
-Hi, I'm Shams Mary 👋
 
 ### 🎓 Student & Tech Enthusiast
 - **Background:** High School Senior (Specialties: Mathematics, Physics, Maths Expert).
