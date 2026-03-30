@@ -6,7 +6,7 @@
 
 ### 💻 Self-Taught Journey
 - **Languages:** Python (Algorithms), HTML/CSS.
-- **Hardware:** Built and optimized my own PC workstation.
+- **Hardware:** Built and optimized my own PC.
 - **Tools:** Learning Git and Markdown.
 
 ---
