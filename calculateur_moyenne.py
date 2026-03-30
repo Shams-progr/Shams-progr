@@ -1,38 +1,40 @@
-# Script pour calculer ma moyenne générale (Parcoursup / Terminale)
-# Ce programme gère les notes, les coefficients et les erreurs de saisie.
+# Mon petit programme pour calculer ma moyenne de Terminale
+# Fait pour m'entraîner sur les boucles et les listes en Python
 
 def calculer_moyenne():
-    print("--- Calculateur de Moyenne de Terminale ---")
+    print("--- CALCULATEUR DE MOYENNE ---")
     
     notes = []
     coefficients = []
     
-    try:
-        nb_matieres = int(input("Combien de notes veux-tu entrer ? "))
+    # On demande combien de matières pour savoir combien de fois boucler
+    nb_notes = input("Combien de notes voulez-vous entrer ? ")
+    nb_notes = int(nb_notes) 
+    
+    for i in range(nb_notes):
+        print("Note numero", i + 1)
         
-        for i in range(nb_matieres):
-            print(f"\n--- Matière n°{i+1} ---")
-            note = float(input(f"Entrez la note (sur 20) : "))
-            coeff = float(input(f"Entrez le coefficient : "))
-            
-            # On ajoute les données dans nos listes
-            notes.append(note)
-            coefficients.append(coeff)
+        n = float(input("Entrez la note : "))
+        c = float(input("Entrez le coefficient : "))
         
-        # Calcul de la moyenne pondérée : Somme de (note * coeff) / Somme des coeffs
-        somme_ponderee = sum(n * c for n, c in zip(notes, coefficients))
-        total_coeffs = sum(coefficients)
-        
-        if total_coeffs == 0:
-            print("\nErreur : Le total des coefficients ne peut pas être nul.")
-        else:
-            moyenne_finale = somme_ponderee / total_coeffs
-            print("\n" + "="*30)
-            print(f"TA MOYENNE GÉNÉRALE EST DE : {moyenne_finale:.2f}/20")
-            print("="*30)
+        notes.append(n)
+        coefficients.append(c)
+    
+    # Calcul de la moyenne
+    somme_notes_coeff = 0
+    somme_coeffs = 0
+    
+    for i in range(len(notes)):
+        somme_notes_coeff = somme_notes_coeff + (notes[i] * coefficients[i])
+        somme_coeffs = somme_coeffs + coefficients[i]
+    
+    if somme_coeffs != 0:
+        resultat = somme_notes_coeff / somme_coeffs
+        print("------------------------------")
+        print("Votre moyenne est de :", resultat)
+        print("------------------------------")
+    else:
+        print("Erreur : le total des coeffs est nul.")
 
-    except ValueError:
-        print("\nErreur : Veuillez entrer des chiffres valides (utilisez le point pour les décimales).")
-
-if __name__ == "__main__":
-    calculer_moyenne()
+# Lancement du programme
+calculer_moyenne()
